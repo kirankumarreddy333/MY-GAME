@@ -71,15 +71,19 @@ MY-GAME/
 │── .gitignore
 ```
 
-## 📸 Screenshot
+---
 
-> Add a screenshot of your game here.
+## 📸 Screenshots
 
-Example:
+### 🎮 Gameplay
 
-```
-![Gameplay](assets/screenshot.png)
-```
+![Gameplay](screenshots/gameplay.png)
+
+### 💀 Game Over
+
+![Game Over](screenshots/game-over.png)
+
+---
 
 ## 🌟 Future Improvements
 
