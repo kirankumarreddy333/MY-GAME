@@ -32,6 +32,9 @@ clock = pygame.time.Clock()
 
 running = True
 
+# Highest Score
+highest_score = 0
+
 while running:
 
     # Reset Game
@@ -86,6 +89,10 @@ while running:
 
         # Miss Ball
         if ball_y - ball_radius > HEIGHT:
+
+            if score > highest_score:
+                highest_score = score
+
             game = False
 
         # Draw Screen
@@ -104,8 +111,13 @@ while running:
             ball_radius
         )
 
+        # Current Score
         score_text = font.render(f"Score : {score}", True, WHITE)
         screen.blit(score_text, (20, 20))
+
+        # Highest Score
+        high_text = font.render(f"Highest : {highest_score}", True, WHITE)
+        screen.blit(high_text, (WIDTH - 220, 20))
 
         pygame.display.update()
 
@@ -121,13 +133,16 @@ while running:
 
         title = title_font.render("GAME OVER", True, RED)
         final_score = score_font.render(f"Final Score : {score}", True, WHITE)
+        high_score = score_font.render(f"Highest Score : {highest_score}", True, YELLOW)
+
         play_again = small_font.render("Press SPACE to Play Again", True, GREEN)
         quit_game = small_font.render("Press ESC to Quit", True, YELLOW)
 
         screen.blit(title, title.get_rect(center=(WIDTH // 2, 170)))
         screen.blit(final_score, final_score.get_rect(center=(WIDTH // 2, 250)))
-        screen.blit(play_again, play_again.get_rect(center=(WIDTH // 2, 340)))
-        screen.blit(quit_game, quit_game.get_rect(center=(WIDTH // 2, 390)))
+        screen.blit(high_score, high_score.get_rect(center=(WIDTH // 2, 300)))
+        screen.blit(play_again, play_again.get_rect(center=(WIDTH // 2, 360)))
+        screen.blit(quit_game, quit_game.get_rect(center=(WIDTH // 2, 410)))
 
         pygame.display.update()
 
