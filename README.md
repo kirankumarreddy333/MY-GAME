@@ -2,26 +2,27 @@
 
 A simple and fun **Ball Catching Arcade Game** built using **Python** and **Pygame**.
 
-The player controls a paddle to catch the falling ball. Every successful catch increases the score. Missing the ball ends the game.
+Control the paddle, catch the falling ball, and achieve the highest score. The game now includes a **persistent high score system**, so your best score is saved even after closing the game.
 
 ---
 
-## 📌 Features
+## ✨ Features
 
 - 🎯 Catch the falling red ball
 - 🎮 Smooth paddle movement
-- 📈 Real-time score tracking
-- 💀 Game Over system
-- 🔄 Restart game using SPACE key
-- ❌ Exit game using ESC key
-- ⚡ Increasing challenge gameplay
-- 🧑‍💻 Beginner-friendly Python project
+- 📈 Live score tracking
+- 🏆 Persistent High Score (saved automatically)
+- 💀 Game Over screen
+- 🔄 Restart game using the **SPACE** key
+- ❌ Quit game using the **ESC** key
+- ⚡ Simple and beginner-friendly gameplay
+- 🧑‍💻 Great project for learning Python and Pygame
 
 ---
 
 ## 🛠️ Technologies Used
 
-- 🐍 Python
+- 🐍 Python 3
 - 🎮 Pygame
 
 ---
@@ -29,35 +30,35 @@ The player controls a paddle to catch the falling ball. Every successful catch i
 ## 🎮 Controls
 
 | Key | Action |
-|---|---|
+|------|--------|
 | ⬅ Left Arrow | Move Paddle Left |
 | ➡ Right Arrow | Move Paddle Right |
-| SPACE | Restart Game |
+| SPACE | Play Again |
 | ESC | Quit Game |
 
 ---
 
-## 🚀 Installation & Setup
+## 🚀 Installation
 
-### 1. Clone the Repository
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/kirankumarreddy333/MY-GAME.git
 ```
 
-### 2. Navigate to Project Folder
+### 2️⃣ Navigate to the Project Folder
 
 ```bash
 cd MY-GAME
 ```
 
-### 3. Install Dependencies
+### 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run the Game
+### 4️⃣ Start the Game
 
 ```bash
 python game.py
@@ -65,13 +66,13 @@ python game.py
 
 ---
 
-## 🎯 How to Play
+## 🎯 Gameplay
 
-- Move the blue paddle using the Left and Right arrow keys.
-- Catch the falling red ball.
-- Each successful catch increases your score.
+- Move the blue paddle using the **Left** and **Right** arrow keys.
+- Catch the falling red ball before it reaches the bottom.
+- Every successful catch increases your score.
 - Missing the ball ends the game.
-- Try to achieve the highest score!
+- Beat your **Highest Score**, which is saved automatically for future sessions.
 
 ---
 
@@ -85,6 +86,7 @@ MY-GAME/
 │   └── game-over.png
 │
 ├── game.py
+├── highscore.txt
 ├── requirements.txt
 ├── README.md
 └── .gitignore
@@ -104,14 +106,28 @@ MY-GAME/
 
 ---
 
+## 🏆 High Score System
+
+The game automatically stores your highest score in:
+
+```text
+highscore.txt
+```
+
+This means your best score remains saved even after closing and reopening the game.
+
+---
+
 ## 🔮 Future Improvements
 
-- 🏆 High Score System
 - 🎵 Background Music
 - 🔊 Sound Effects
-- ❤️ Multiple Lives System
-- ⚡ Increasing Ball Speed
-- 🖼️ Better Graphics and Animations
+- ❤️ Multiple Lives
+- ⚡ Dynamic Difficulty
+- 🪙 Coins & Power-ups
+- 🌟 Particle Effects
+- 📊 Levels and Achievements
+- 🎨 Better Graphics & Animations
 
 ---
 
@@ -119,9 +135,12 @@ MY-GAME/
 
 **Velicharla Kiran Kumar Reddy**
 
-GitHub:
-https://github.com/kirankumarreddy333
+- GitHub: https://github.com/kirankumarreddy333
 
 ---
 
-⭐ If you like this project, consider giving it a Star on GitHub!
+## ⭐ Support
+
+If you enjoyed this project, please consider giving it a **⭐ Star** on GitHub.
+
+It helps others discover the project and motivates future improvements!
