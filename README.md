@@ -1,4 +1,4 @@
-# 🎮 MY GAME
+# 🎮 GameXK
 
 A simple and fun **Ball Catching Arcade Game** built using **Python** and **Pygame**.
 
