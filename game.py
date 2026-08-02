@@ -7,7 +7,7 @@ WIDTH = 800
 HEIGHT = 600
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("MY GAME")
+pygame.display.set_caption("GameXK")
 
 RED = (255, 0, 0)
 BLACK = (20, 20, 20)
@@ -16,11 +16,11 @@ BLUE = (0, 0, 255)
 GREEN = (0, 255, 0)
 YELLOW = (255, 255, 0)
 
-paddle_width = 120
+paddle_width = 600
 paddle_height = 15
 
 paddle_speed = 10
-ball_speed = 6
+ball_speed = 30
 ball_radius = 25
 
 font = pygame.font.Font(None, 35)
