@@ -124,7 +124,10 @@ This means your best score remains saved even after closing and reopening the ga
 - 🔊 Sound Effects
 - ❤️ Multiple Lives
 - ⚡ Dynamic Difficulty
-- 🪙 Coins & Power-ups
+- 🪙 Coins & Power-upsgit status
+git add .
+git commit -m "Rename game and update project"
+git push origin main
 - 🌟 Particle Effects
 - 📊 Levels and Achievements
 - 🎨 Better Graphics & Animations
