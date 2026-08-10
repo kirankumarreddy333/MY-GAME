@@ -20,7 +20,7 @@ paddle_width = 600
 paddle_height = 15
 
 paddle_speed = 10
-ball_speed = 30
+ball_speed = 29
 ball_radius = 25
 
 font = pygame.font.Font(None, 35)
