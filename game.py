@@ -19,7 +19,7 @@ YELLOW = (255, 255, 0)
 paddle_width = 600
 paddle_height = 15
 
-paddle_speed = 10
+paddle_speed = 12
 ball_speed = 29
 ball_radius = 25
 
