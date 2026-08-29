@@ -7,7 +7,7 @@ WIDTH = 800
 HEIGHT = 600
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("MY_Game")
+pygame.display.set_caption("GameXK")
 
 RED = (255, 0, 0)
 BLACK = (20, 20, 20)
